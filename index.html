@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Luas dan Keliling Lingkaran</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Menghitung Luas dan Keliling Lingkaran</h1>
+        <!-- Bagian Pi 22 / 7 -->
+        <form class="pi1">
+        <h2>Dengan Pi: 22/7</h2>
+        <table border="2px solid #333" cellpadding="10">
+            <tr>
+            <td><label for="luasJ"> Luas lingkaran jari-jari: </label></td>
+            <td><input type="number" id="luasJ" autocomplete="off" placeholder="Masukkan nilai jari-jari" /></td>
+            <td><input type="submit" value="Hasil" id="btnLJ" /></td>
+            <td>
+                <label>
+                <input type="number" id="hasilLJ" disabled />
+                cm<sup>2</sup>
+                </label>
+            </td>
+            </tr>
+
+            <tr>
+            <td><label for="kelilingJ"> Keliling lingkaran jari-jari: </label></td>
+            <td><input type="number" id="kelilingJ" autocomplete="off" placeholder="Masukkan nilai jari-jari" /></td>
+            <td><input type="submit" value="Hasil" id="btnKJ" /></td>
+            <td>
+                <label>
+                <input type="number" id="hasilKJ" disabled />
+                cm
+                </label>
+            </td>
+            </tr>
+
+            <tr>
+            <td><label for="luasD"> Luas lingkaran diameter: </label></td>
+            <td><input type="number" id="luasD" autocomplete="off" placeholder="Masukkan nilai diameter" /></td>
+            <td><input type="submit" value="Hasil" id="btnLD" /></td>
+            <td>
+                <label>
+                <input type="number" id="hasilLD" disabled />
+                cm<sup>2</sup>
+                </label>
+            </td>
+            </tr>
+
+            <tr>
+            <td><label for="kelilingD"> Keliling lingkaran diameter: </label></td>
+            <td><input type="number" id="kelilingD" autocomplete="off" placeholder="Masukkan nilai diameter" /></td>
+            <td><input type="submit" value="Hasil" id="btnKD" /></td>
+            <td>
+                <label>
+                <input type="number" id="hasilKD" disabled />
+                cm
+                </label>
+            </td>
+            </tr>
+        </table>
+        </form>
+
+        <!-- Bagian Pi 3, 14 -->
+        <form class="pi2">
+          <h2>Dengan Pi: 3,14</h2>
+          <table border="2px solid #333" cellpadding="10">
+            <tr>
+              <td><label for="luasJ2"> Luas lingkaran jari-jari: </label></td>
+              <td><input type="number" id="luasJ2" autocomplete="off" placeholder="Masukkan nilai jari-jari" /></td>
+              <td><input type="submit" value="Hasil" id="btnLJ2" /></td>
+              <td>
+                <label>
+                  <input type="number" id="hasilLJ2" disabled />
+                  cm<sup>2</sup>
+                </label>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="kelilingJ2"> Keliling lingkaran jari-jari: </label></td>
+              <td><input type="number" id="kelilingJ2" autocomplete="off" placeholder="Masukkan nilai jari-jari" /></td>
+              <td><input type="submit" value="Hasil" id="btnKJ2" /></td>
+              <td>
+                <label>
+                  <input type="number" id="hasilKJ2" disabled />
+                  cm
+                </label>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="luasD2"> Luas lingkaran diameter: </label></td>
+              <td><input type="number" id="luasD2" autocomplete="off" placeholder="Masukkan nilai diameter" /></td>
+              <td><input type="submit" value="Hasil" id="btnLD2" /></td>
+              <td>
+                <label>
+                  <input type="number" id="hasilLD2" disabled />
+                  cm<sup>2</sup>
+                </label>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="kelilingD2"> Keliling lingkaran diameter: </label></td>
+              <td><input type="number" id="kelilingD2" autocomplete="off" placeholder="Masukkan nilai diameter" /></td>
+              <td><input type="submit" value="Hasil" id="btnKD2" /></td>
+              <td>
+                <label>
+                  <input type="number" id="hasilKD2" disabled />
+                  cm
+                </label>
+              </td>
+            </tr>
+          </table>
+        </form>
+        <script src="main.js"></script>
+    </body>
+</html>
